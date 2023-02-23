@@ -1,0 +1,40 @@
+call,apply,bind
+inheritance
+flat method
+function currying
+copying of object(spread, deep cloning, shallow cloning)
+pass by reference and value
+string datatype
+number to string
+logical operators
+scope
+memoization
+arrow function vs normal function
+es5 vs es6
+multiple then and catch
+promise methods
+strict mode
+isnan
+recursion
+callback
+async ,await
+annonymous func vs normal func
+object destructuring/array
+spread,rest operators
+slice,splice(changes orginal array,length provided)
+substr,substring
+array methods
+closure
+map,filter,reduce
+starvation....
+optional chaining
+implicitive coercion
+generator function
+different types of consoles
+protoype
+reduce
+callback hell
+object assign methods
+hoisting
+immediately invoked functions
+create 2d array
