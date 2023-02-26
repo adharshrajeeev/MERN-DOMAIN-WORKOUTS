@@ -1,0 +1,46 @@
+Insert one
+Insert many
+Insert document
+Insert Array of documents
+Insert with ID
+Bulk write operations
+Find one
+Find one and delete
+Find one and replace
+Find one and update
+Find one and update with projection
+Find one and update with sort
+Find one and update with upsert
+Find
+Find all
+Find with exculde fields
+Find with include fields
+Find with equal
+Find with not equal
+Find with greater than
+Find with greater than or equal
+Find with less than
+Find with less than or equal
+Find with matches any of the values
+Find with matches none of the values
+Find with specify ranges
+Find with sort
+Find with limit
+Find with sort and limit
+Update document
+Update multiple documents
+Update with upsert
+Update with increment
+Update with multiplies
+Update with unset
+Update with rename
+Update one
+Update one with upsert
+Update many
+Update many with upsert
+Delete one
+Delete many
+Drop
+Replace one document
+Count all documents in a collection
+Count documents
