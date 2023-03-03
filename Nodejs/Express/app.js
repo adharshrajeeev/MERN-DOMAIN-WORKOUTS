@@ -1,17 +1,26 @@
 const express=require('express');
 const app=express();
+require('dotenv').config();
 
+const PORT=process.env.ServerPort;
 
-const datas=[1,2,3,4,5,6]
+app.use(express.json());
+app.use(express.urlencoded({extended:true}));
 
-app.get('/',(req,res)=>{
-    res.status(200).json({status:"Good",data:"server created at port 3000"})
+const token="123";
+
+function Token(req,res,next){
+    console.log("Creating token")
+    next();
+}
+
+app.get("/profile",Token,(req,res)=>{
+    console.log("USER LOGGED")
+
+    res.send("<h1>Sucess</h1>")
 })
 
-app.get('/user',(req,res)=>{
-    res.status(200).json({status:"Good",data:datas})
 
-})
+    
 
-
-app.listen(3000,()=>console.log("server created at port 3000"));
+app.listen(PORT,()=>console.log(`SERVER STARTING AT PORT ${PORT}`));
