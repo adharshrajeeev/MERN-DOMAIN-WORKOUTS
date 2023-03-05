@@ -6,4 +6,4 @@ var intervalID=setInterval(()=>{
 
 setTimeout(()=>{
   clearInterval(intervalID)
-},5000)
+},5000);
